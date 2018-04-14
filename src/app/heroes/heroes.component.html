@@ -6,7 +6,7 @@
   [class.selected] = "hero === selectedHero"
   (click)="onSelect(hero)">
     <span class="badge">{{ hero.id }}</span> {{ hero.name }}
-    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+    
   </li>
 </ul>
-
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
